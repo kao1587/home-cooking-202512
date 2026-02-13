@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Maru+Gothic:wght@400;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  font-family: var(--japanese-font);
+}
+
+:root {
+  --primary-color: #E96600;
+  --secondary-color: #F7B400;
+  --text-color: #1E1E1E;
+  --background-color: #F8FAFB;
+  --heading-font: "Zen Maru Gothic", sans-serif;
+  --EN-text-font: 'Noto Sans', sans-serif;
+  --japanese-font: 'Noto Sans JP', sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+button.button {
+  width: 100%;
+  border-radius: 15px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 25px auto;
+  height: 40px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-weight: 550;
+  font-family: var(--heading-font);
+}
+
+button.button:hover {
+  background: var(--secondary-color);
+  width: 100%;
+}
+
+:heading {
+  font-family: var(--heading-font);
+  font-weight: 900;
+  text-wrap: balance;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+button,
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+body {
+  font-size: 14px;
+  background-color: var(--background-color);
+}
+
+.shadow {
+  box-shadow: 0 0 10px 2px rgba(83, 83, 83, 0.25);
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .container {
+    width: 85%;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+}

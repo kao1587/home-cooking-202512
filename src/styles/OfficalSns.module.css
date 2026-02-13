@@ -1,0 +1,109 @@
+.sns-icon-group-bg {
+    position: relative;
+    background: url("../assets/officalSns-sp-bg.png") no-repeat center top;
+    height: fit-content;
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+}
+
+.sns-icon-group-bg h2 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    width: 200px;
+    border-bottom: 3px dashed var(--primary-color);
+}
+
+.sns-icon-group-bg h2 span {
+    font-family: var(--EN-text-font);
+    color: var(--primary-color);
+}
+
+.sns-icon-groups img {
+    width: 32px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sns-icon-groups {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: fit-content;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.sns-icon-group {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.sns-icon-group img {
+    transition: all 0.3s ease;
+}
+
+.sns-icon-group:hover img {
+    opacity: 0.5;
+}
+
+.sns-icon-group:hover p {
+    text-decoration: underline;
+}
+
+.sns-icon-group p {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sns-icon-group p span {
+    font-size: 16px;
+}
+
+/* tablet and up */
+@media (min-width: 768px) {
+    .sns-icon-group-bg {
+        background: url("../assets/officalSns-tablet-bg.svg") no-repeat center top;
+        background-size: cover;
+        height: fit-content;
+        min-height: auto;
+        padding: 95px 50px;
+    }
+
+    .sns-icon-groups {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 720px;
+    }
+
+
+    .sns-icon-group-bg h2 {
+        color: var(--primary-color);
+        font-family: var(--heading-font);
+        text-align: center;
+        padding-bottom: 25px;
+        margin-bottom: 60px;
+        width: 200px;
+        border-bottom: 3px dashed var(--primary-color);
+    }
+}
+
+@media (min-width: 1222px) {
+
+    .sns-icon-group-bg {
+        background-size: contain;
+    }
+}

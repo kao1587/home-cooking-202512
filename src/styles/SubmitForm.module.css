@@ -1,0 +1,237 @@
+.title {
+    margin-top: 100px;
+}
+
+.title h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.title p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+form section {
+    margin: 30px auto;
+    width: 100%;
+    max-width: 720px;
+}
+
+section.img-upload .file-upload-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+form h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 2px dashed #FFA864;
+    padding: 5px 0;
+    width: 100%;
+    max-width: 720px;
+}
+
+form span {
+    color: var(--primary-color);
+    margin-left: 10px;
+}
+
+form .alert {
+    margin-top: 3px;
+    line-height: 1.8;
+    font-size: 12px;
+}
+
+form section {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+form input {
+    width: 100%;
+    max-width: 720px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    transition: all 0.2s ease;
+    font-size: 14px;
+}
+
+form input:focus {
+    outline: none;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+form textarea {
+    width: 100%;
+    max-width: 720px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    resize: vertical;
+    transition: all 0.2s ease;
+    font-size: 14px;
+}
+
+form textarea:focus {
+    outline: none;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+form select {
+    width: 100%;
+    max-width: 720px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    transition: all 0.2s ease;
+}
+
+option {
+    width: 100%;
+    max-width: 720px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+.product-select-label {
+    display: flex;
+    gap: 5px;
+
+}
+
+.product-select-label button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.hidden-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.file-upload-container p {
+    align-self: flex-start;
+    width: 280px;
+    margin: 0 auto 5px auto;
+}
+
+
+.file-upload-container .img-preview {
+    border-radius: 20px;
+    border: 1px solid #9F9F9F;
+    background: url() rgba(211, 211, 211, 0.368) 50% / contain no-repeat;
+    width: 280px;
+    height: 280px;
+    aspect-ratio: 1/1;
+}
+
+.custom-upload-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 280px;
+    margin: 10px auto;
+}
+
+.img-upload {
+    margin-top: 40px;
+}
+
+form .submit-btn {
+    width: 100%;
+    margin-top: 50px;
+    max-width: 320px;
+}
+
+.submit-btn-seciton {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.extra-product-group {
+    margin-top: 20px;
+}
+
+.ingredient-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.input-plus-remove-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.input-plus-remove-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+@media (min-width: 633px) {
+    section.img-upload .file-upload-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (min-width: 720px) {
+    form input, form textarea, form select {
+        font-size: 18px;
+    }
+}
