@@ -6,7 +6,7 @@ import styles from '../styles/FooterCard2.module.css';
 
 function FooterCard2({ imgSrc, title, description }) {
     const linkToHomeCooking = () => {
-        window.open("#", "_blank");
+        window.open("https://kao1587.github.io/home-cooking-202512", "_blank");
     };
 
     return (

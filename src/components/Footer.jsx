@@ -20,14 +20,14 @@ const Footer = () => {
                 <h2 className={styles["footer-h2"]}><Link to={"/"}><img src={KikkomanLogo} alt="Kikkoman" /></Link></h2>
                 <div className={`${styles["footer-nav"]} container`}>
                     <div className={styles["footer-nav-right"]}>
-                        <a href="#" target='_blank'><h3 className={`${styles["footer-h3"]} container`}>ホームクッキングトップ<wbr />ページへ<span className="material-symbols-outlined">open_in_new</span></h3></a>
+                        <a href="https://kao1587.github.io/home-cooking-202512" target='_blank'><h3 className={`${styles["footer-h3"]} container`}>ホームクッキングトップ<wbr />ページへ<span className="material-symbols-outlined">open_in_new</span></h3></a>
                         <ul className={`${styles["footer-ul"]} container`}>
-                            <li><a href="#" target='_blank'>人気のレシピまとめ<span className="material-symbols-outlined">open_in_new</span></a></li>
-                            <li><a href="#" target='_blank'>おすすめレシピ動画<span className="material-symbols-outlined">open_in_new</span></a></li>
-                            <li><a href="#" target='_blank'>料理の基本<span className="material-symbols-outlined">open_in_new</span></a></li>
-                            <li><a href="#" target='_blank'>旬の食材辞典<span className="material-symbols-outlined">open_in_new</span></a></li>
-                            <li><a href="#" target='_blank'>行事イベントのレシピ<span className="material-symbols-outlined">open_in_new</span></a></li>
-                            <li><a href="#" target='_blank'>季節の献立レシピ集<span className="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="https://kao1587.github.io/home-cooking-202512" target='_blank'>人気のレシピまとめ<span className="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="https://kao1587.github.io/home-cooking-202512" target='_blank'>おすすめレシピ動画<span className="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="https://kao1587.github.io/home-cooking-202512" target='_blank'>料理の基本<span className="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="https://kao1587.github.io/home-cooking-202512" target='_blank'>旬の食材辞典<span className="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="https://kao1587.github.io/home-cooking-202512" target='_blank'>行事イベントのレシピ<span className="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="https://kao1587.github.io/home-cooking-202512" target='_blank'>季節の献立レシピ集<span className="material-symbols-outlined">open_in_new</span></a></li>
                         </ul>
                     </div>
                     <div className={styles["footer-nav-left"]}>
