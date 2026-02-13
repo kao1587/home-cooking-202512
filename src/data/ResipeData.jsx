@@ -4,7 +4,7 @@ import soySaucePic from '../assets/soysauce.png';
 export const RecipeData = [
     // last last month's recipes ( 0 - 8)
     {
-        "imgSrc": "dish-img/dish-img.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img.jpg",
         "title": "【時短30分】息子が満面の笑み！お肉たっぷり絶品カレー",
         "content": "だししょうゆで短時間なのに本格的な味に。息子が満面の笑みをくれる絶品カレー。",
         "time": "30分以內",
@@ -34,7 +34,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img2.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img2.jpg",
         "title": "【週末チャレンジ】子どもと一緒に作る！ワクワク醤油おにぎり",
         "content": "だししょうゆで失敗知らず。家族で作る最高の「おいしい記憶」です。",
         "time": "10分以內",
@@ -58,7 +58,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img3.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img3.jpg",
         "title": "うま味とコクが凝縮！絶品トマトパスタ",
         "content": "だししょうゆを隠し味に加えることで、本格的なコクが短時間で出せます。忙しい日の満足ランチに！",
         "time": "20分以內",
@@ -88,7 +88,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img4.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img4.jpg",
         "title": "ママの自信作！栄養満点ヘルシー豚肉レシピ",
         "content": "だししょうゆの芳醇な香りで、パサつきがちな鶏むね肉をジューシーに。",
         "time": "20分以內",
@@ -115,7 +115,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img5.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img5.jpg",
         "title": "魚焼きグリルいらず！鮭と野菜のうま塩炒め",
         "content": "魚焼きグリルは不要！フライパンで簡単に作れる、野菜もたっぷり摂れるヘルシーな一品です。ご飯が進みます。",
         "time": "20分以內",
@@ -145,7 +145,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img6.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img6.jpg",
         "title": "【レンジで簡単15分】失敗知らず！極上のなめらか茶碗蒸し",
         "content": "だししょうゆで奥深い味わいに。レンジで手早く作れる、つるんと絶品の和食です。",
         "time": "20分以內",
@@ -175,7 +175,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img7.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img7.jpg",
         "title": "生しょうゆ香る 鮭とキノコのバター醤油パスタ",
         "content": "濃厚なバター醤油が鮭とキノコに絡む！生しょうゆで仕上げる、風味豊かな和風パスタです。",
         "time": "20分以內",
@@ -203,7 +203,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img8.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img8.jpg",
         "title": "【レンジ時短30分】外カリ中もっちり！手作り大根餅",
         "content": "レンジとだししょうゆで簡単に本格的な大根餅が完成！時短なのに旨味たっぷり、家族が喜ぶ飲茶の味。",
         "time": "30分以內",
@@ -237,7 +237,7 @@ export const RecipeData = [
 
     // employee's recipes ( 9 - 15)
     {
-        "imgSrc": "dish-img/dish-img9.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img9.jpg",
         "title": "【企画部】失敗知らず！ジューシーな豆腐ハンバーグ",
         "content": "企画部社員も認めたレシピ。だししょうゆの力で短時間で本格的な味に。",
         "time": "30分以內",
@@ -262,7 +262,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img10.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img10.jpg",
         "title": "【人事部】疲れた心と体を癒す！ごろごろチキンのご褒美バターチキンカレー",
         "content": "人事部推薦の「ご褒美飯」。濃厚ルーで午後の活力チャージ。",
         "time": "30分以內",
@@ -287,7 +287,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img11.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img11.jpg",
         "title": "【総務部】懐かしの味！ほくほくコロッケ",
         "content": "総務部イチオシの定番。サクサク衣とじゃがいもの優しい甘さが懐かしい。",
         "time": "30分以內",
@@ -311,7 +311,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img12.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img12.jpg",
         "title": "【業務部】スタミナ満点！生姜焼き",
         "content": "業務部推！秘伝のタレと生姜の香りが食欲をそそるご飯泥棒。",
         "time": "20分以內",
@@ -334,7 +334,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img13.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img13.jpg",
         "title": "【開發部】濃厚スピード・カルボナーラ",
         "content": "開發部一押し！生クリーム不要で超時短。帰宅後すぐ食べたい時に最適。",
         "time": "10分以內",
@@ -361,7 +361,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img14.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img14.jpg",
         "title": "【營業部】香ばしソースの屋台焼きそば",
         "content": "営業部おすすめ！特製ソースが香ばしい。手軽に満腹になる活力チャージ。",
         "time": "20分以內",
@@ -387,7 +387,7 @@ export const RecipeData = [
         "parentPage": "みんなの時短料理レシピ"
     },
     {
-        "imgSrc": "dish-img/dish-img15.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img15.jpg",
         "title": "【人事部】心まで温まる、染み染み大根の癒やしおでん",
         "content": "人事部推薦。大根に味が深く染みた定番おでん。冬の時短料理。",
         "time": "30分以內",
@@ -414,7 +414,7 @@ export const RecipeData = [
 
     // vote recipes ( 16 - 20)
     {
-        "imgSrc": "dish-img/dish-img16.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img16.jpg",
         "title": "お袋の味のポテトサラダ！生しょうゆとマヨネーズでコク旨",
         "content": "レンジで時短！生しょうゆを隠し味に加えることで、味が引き締まり、コクと旨味が増す定番ポテサラ。",
         "time": "30分以內",
@@ -444,7 +444,7 @@ export const RecipeData = [
         "parentPage": "先月投稿レシピ一覧・投稿募集"
     },
     {
-        "imgSrc": "dish-img/dish-img17.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img17.jpg",
         "title": "【秋の味覚】ふっくらジューシー！秋刀魚の塩焼き",
         "content": "旬の秋刀魚をシンプルに塩焼きで。生しょうゆを少しかけると、魚の旨みが際立ち、格別な味わいに。",
         "time": "30分以內",
@@ -470,7 +470,7 @@ export const RecipeData = [
         "parentPage": "先月投稿レシピ一覧・投稿募集"
     },
     {
-        "imgSrc": "dish-img/dish-img18.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img18.jpg",
         "title": "しみしみ大根が絶品！ブリ大根の煮付け",
         "content": "生しょうゆでコク深く、魚の旨味がたっぷり染み込んだ大根が主役の冬の定番煮物。冷めても美味しいご飯が進む一品です。",
         "time": "30分以內",
@@ -500,7 +500,7 @@ export const RecipeData = [
         "parentPage": "先月投稿レシピ一覧・投稿募集"
     },
     {
-        "imgSrc": "dish-img/dish-img19.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img19.jpg",
         "title": "具材たっぷり！基本の五目炊き込みご飯",
         "content": "生しょうゆが香る、具材の旨味がご飯一粒一粒に染み込んだ炊き込みご飯。季節を問わず楽しめる、定番の和食です。",
         "time": "30分以內",
@@ -531,7 +531,7 @@ export const RecipeData = [
         "parentPage": "先月投稿レシピ一覧・投稿募集"
     },
     {
-        "imgSrc": "dish-img/dish-img20.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img20.jpg",
         "title": "失敗しない！基本の豚の角煮",
         "content": "生しょうゆとみりんの絶妙なバランスで、とろけるほど柔らかく煮込んだ角煮です。ご飯にもお酒にも合う、濃厚な味わい。",
         "time": "30分以上",
@@ -562,7 +562,7 @@ export const RecipeData = [
         "parentPage": "先月投稿レシピ一覧・投稿募集"
     },
     {
-        "imgSrc": "dish-img/dish-img21.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img21.jpg",
         "title": "彩り鮮やか！本格中華のチンジャオロース",
         "content": "ピーマンと豚肉をシャキッと炒め合わせ、生しょうゆでコク深く仕上げた一品。オイスターソースと生しょうゆがベストマッチ！",
         "time": "30分以內",
@@ -597,7 +597,7 @@ export const RecipeData = [
         "parentPage": "先月投稿レシピ一覧・投稿募集"
     },
     {
-        "imgSrc": "dish-img/dish-img22.jpg",
+        "imgSrc": "/home-cooking-202512/dish-img/dish-img22.jpg",
         "title": "【冷凍でもパリパリ】失敗知らず！羽根つき餃子の焼き方",
         "content": "冷凍餃子を使って、まるで専門店の味！パリッとした羽根とジューシーな食感を手軽に楽しめます。",
         "time": "30分以內",
