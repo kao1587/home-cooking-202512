@@ -12,7 +12,7 @@ import ScrollToHash from './components/ScrollToHash';
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/home-cooking-202512">
             <ScrollToHash />
             <ScrollToTop />
             <Header />
